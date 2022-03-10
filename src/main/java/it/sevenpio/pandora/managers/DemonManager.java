@@ -1,4 +1,4 @@
-package it.sevenpio.pandora.manager;
+package it.sevenpio.pandora.managers;
 
 import it.sevenpio.pandora.objects.Demon;
 

@@ -1,8 +1,6 @@
-package it.sevenpio.pandora.file;
+package it.sevenpio.pandora.utils;
 
 import java.io.*;
-import java.net.URISyntaxException;
-import java.net.URL;
 import java.util.List;
 import java.util.Map;
 
@@ -27,9 +25,9 @@ public class FileUtils {
         ClassLoader classLoader = FileUtils.class.getClassLoader();
         InputStream inputStream = classLoader.getResourceAsStream(fileName);
 
-        // the stream holding the file content
+        // the stream holding the utils content
         if (inputStream == null) {
-            throw new IllegalArgumentException("file not found! " + fileName);
+            throw new IllegalArgumentException("utils not found! " + fileName);
         } else {
             return inputStream;
         }
