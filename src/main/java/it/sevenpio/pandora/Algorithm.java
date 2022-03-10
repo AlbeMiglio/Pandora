@@ -1,18 +1,14 @@
-package it.sevenpio.pandora.algorithm;
+package it.sevenpio.pandora;
 
-import it.sevenpio.pandora.file.FileUtils;
-import it.sevenpio.pandora.manager.DemonManager;
+import it.sevenpio.pandora.utils.FileUtils;
+import it.sevenpio.pandora.managers.DemonManager;
 import it.sevenpio.pandora.objects.Demon;
 import it.sevenpio.pandora.objects.Player;
 
 import java.io.*;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.time.Instant;
 import java.util.*;
-import java.util.concurrent.ConcurrentHashMap;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Algorithm {
 
@@ -32,7 +28,7 @@ public class Algorithm {
                 "05-androids-armageddon.txt");
         for (String fileName : files) {
             demonManager.clearMap();
-            System.out.printf("Starting with file %s...\n", fileName);
+            System.out.printf("Starting with utils %s...\n", fileName);
             Instant init = Instant.now();
             InputStream inputStream = FileUtils.getFileFromResourceAsStream(fileName);
             try (BufferedReader br = new BufferedReader(new InputStreamReader(inputStream))) {
