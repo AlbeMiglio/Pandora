@@ -1,11 +1,11 @@
 # Reply Code Challenge 2022 Edition - March 10th
 ### What is «Pandora»?
 Pandora is the **name** of Reply Code Challenge 2022 **problem statement**.  
-Our team - made by me and [Kyumar](https://github.com/Kyumar) joined the challenge and **coded this solution**.
+**Our team** - which consists of me and [**Kyumar**](https://github.com/Kyumar) - **joined** the challenge and **coded this solution**.
 ### Then what's Reply Code Challenge?
 The *Reply Code Challenge* (created in 2019) is a challenge 
 where, for over **four hours**, participants from 
-all over the world come together each year to **solve 
+**all over the world** come together each year to **solve 
 algorithm-based problems**, using **any** programming language.
   
 Below you can read the abstract and the full problem statement,
